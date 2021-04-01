@@ -30,6 +30,7 @@ const App = () => {
     updateSelectionStyle(nextBackground)
   }
   selectNextBackground = (background) => {
+    // console.log(background);
     nextBackground = background.background;
   }
 
